@@ -1,18 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>repl.it</title>
-</head>
-<body>
-<div class="login">
-	<h1>Login</h1>
-    <form method="post" action="#">
-    	<input type="text" name="u" placeholder="Username" required="required" />
-        <input type="password" name="p" placeholder="Password" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
-    </form>
-</div>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>repl.it</title>
+		<link rel="stylesheet" href="style.css" />
+		<style>
+			body {
+				background-color: darkslateblue;
+			}
+
+			.login {
+				margin: 300px auto;
+				width: 500px;
+				height: 500px;
+			}
+
+			h1 {
+				text-align: center;
+				font-weight: bold;
+				font-size: 53px;
+			}
+
+			.login h1 {
+				text-align: center;
+			}
+
+			form {
+				align-items: center;
+				text-align: center;
+			}
+
+			input {
+				background-color: #313365;
+				width: 300px;
+				height: 30px;
+				display: inline;
+				color: white;
+			}
+
+			button {
+				width: 310px;
+				margin-top: 10px;
+				height: 30px;
+				background-color: #3981bf;
+				border-radius: 4px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="login">
+			<h1>Login</h1>
+			<form method="post" action="#">
+				<input type="text" name="u" placeholder="Username" required="required" />
+				<input type="password" name="p" placeholder="Password" required="required" />
+				<button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+			</form>
+		</div>
+	</body>
 </html>
