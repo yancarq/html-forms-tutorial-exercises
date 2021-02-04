@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>4Geeks Academy</title>
-</head>
-<body>
-<form>
-<!-- your code here -->
-</form>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+	</head>
+
+	<body>
+		<form>
+			<!-- your code here -->
+			<table border="1" width="500px">
+				<tr bgcolor="#ccccff">
+					<th width="200px">Name</th>
+					<th width="250px">Value</th>
+				</tr>
+				<tr>
+					<td>
+						<label>Name</label>
+					</td>
+					<td><input type="text" style="width: 280px;border: 2px solid #615c5c;" name="name" id="name" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label>Sex</label>
+					</td>
+					<td>
+						<input type="radio" name="sex" id="male" value="male" />
+						<label for="male">Male</label>
+						<br />
+						<input type="radio" name="sex" id="female" value="female" />
+						<label for="female">Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Eye color</label>
+					</td>
+					<td>
+						<select name="color" id="color">
+							<option value="Green">Green</option>
+							<option value="Black">Black</option>
+							<option value="Blue">Blue</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<input type="checkbox" name="napply" id="appl1" value="1" />
+						<label for="appl1">Over 6 feet tall</label>
+						<br />
+						<input type="checkbox" name="napply" id="appl2" value="2" />
+						<label for="appl2">Over 2000 pounds</label>
+					</td>
+				</tr>
+				<tr>
+					Describe your athletic ability:
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>
